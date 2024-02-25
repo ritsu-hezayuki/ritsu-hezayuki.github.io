@@ -10,3 +10,19 @@ body{
   background: black;
   color: white;
 }
+
+
+.header {
+  animation: shiftColor  5s linear infinite;
+}
+
+@keyframes shiftColor {
+   0% {
+    color: hsl(0,  80%,  65%);
+    text-shadow:  0.04em  0.04em hsl(350,  60%,  45%),  0.08em  0.08em hsl(340,  50%,  35%);
+  }
+   100% {
+    color: hsl(360,  80%,  65%);
+    text-shadow:  0.04em  0.04em hsl(350,  60%,  45%),  0.08em  0.08em hsl(340,  50%,  35%);
+  }
+}
