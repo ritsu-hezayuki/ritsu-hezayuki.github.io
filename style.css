@@ -13,6 +13,8 @@ body{
 
 
 .header {
+  font-size: 5rem;
+  text-align: center;
   animation: shiftColor  5s linear infinite;
 }
 
