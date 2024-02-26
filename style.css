@@ -5,6 +5,13 @@ html{
   box-sizing:inherit
 }
 
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+
 body{
   margin: 0;
   background: black;
